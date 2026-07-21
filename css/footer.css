@@ -1,0 +1,80 @@
+footer {
+  background-color: var(--dark-color);
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: .6rem;
+}
+.app-links{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: .5rem;
+}
+.sabz-logo{
+  width: 5.5rem;
+}
+.app-link_svg{
+  width: 2.5rem;
+}
+.footer-mid{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  justify-content: start;
+  margin-bottom: 2rem ;
+  padding-bottom: 2rem;
+  border-bottom: .1rem solid var(--white-color);
+}
+.mid-address{
+  color: var(--white-color);
+  font-family:"Dana";
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.address-logo{
+  width: 1.5rem;
+}
+.footer-main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.access{
+  width: 25rem;
+  color: var(--white-color);
+  margin-bottom: 2rem;
+}
+.access-title{
+  font-family: "Danabold";
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.access-caption{
+  line-height: 1.7rem;
+}
+.access-text{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.access-caption{
+
+}
+.footer-down{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+.footer-down_text{
+  color: var(--white-color);
+}

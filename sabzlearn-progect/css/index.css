@@ -1,0 +1,283 @@
+@import "varible.css";
+@import "reset.css";
+@import "font.css";
+
+body {
+  font-family: "iranSans";
+  background-color: black;
+}
+.hidden {
+  display: none !important;
+}
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: var(--dark-color);
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  width: 5rem;
+  margin-left: 0.5rem;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+
+.icon-nav {
+  color: var(--white-color);
+  margin-right: 0.5rem;
+}
+.header-link {
+  color: var(--white-color);
+}
+.header-link:hover .icon-nav{
+  color: var(--primery-color);
+  transition: all 0.5s ease;
+}
+
+
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchInput-header {
+  background-color: var(--bgsidebar-color);
+  border-radius: 1.5rem;
+  padding: 0.2rem 0;
+  margin-left: 1rem;
+}
+.searchInput-header {
+  position: relative;
+}
+.searchInput-header input {
+  background-color: var(--dark-color);
+  border: none;
+  outline: none;
+  color: var(--white-color);
+  font-family: "iranSans";
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--bgsidebar-color);
+  border-radius: 2rem;
+}
+.search-icon {
+  position: absolute;
+  top: .9rem;
+  left: .6rem;
+  color: var(--white-color);
+  opacity: 50%;
+  font-size: 1rem;
+}
+
+.search-icon__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--user-color);
+  border: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0.4rem;
+  margin-left: 1rem;
+  color: var(--white-color);
+}
+.searchInput-header1 {
+  position: relative;
+}
+.searchInput-header1 input{
+  position: absolute;
+  top: 4rem;
+  left: -4rem;
+  background-color: var(--dark-color);
+  border: none;
+  outline: none;
+  color: var(--white-color);
+  font-family: "iranSans";
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--bgsidebar-color);
+  border-radius: 2rem;
+}
+.dark-light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.light-mode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--user-color);
+  border: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0.4rem;
+  margin-left: 1rem;
+}
+.light-mode__icon {
+  color: var(--white-color);
+  margin: 0 0.5rem;
+  height: 2rem;
+}
+.dark-mode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white-color);
+  border: 0;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 0.4rem;
+  margin-left: 1rem;
+}
+
+.dark-mode__icon {
+  color: var (--dark-color);
+  margin: 0 0.5rem;
+  height: 2rem;
+}
+.menu-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--user-color);
+  border: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0.4rem;
+}
+.user-icon {
+  color: var(--white-color);
+  margin: 0 0.5rem;
+  height: 1.2rem;
+}
+.dropdown-header-list {
+  position: absolute;
+  background-color: var(--dark-color);
+  margin-top: 2rem;
+  width: 15rem;
+  top: 0rem;
+  right: 0;
+  padding: 1.5rem 0.5rem 0 0;
+  transition: opacity 200ms ease-in-out;
+  border-radius: 1rem;
+  border-top: 1px solid var(--primery-color);
+  border-bottom: 1px solid var(--primery-color);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.header-item:hover .dropdown-header-list {
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-header-item{
+  margin-bottom: 1.5rem;
+}
+.dropdown-header-link{
+  font-size: 1rem;
+  color: var(--white-color);
+}
+footer {
+  background-color: var(--dark-color);
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: .6rem;
+}
+.app-links{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: .5rem;
+}
+.sabz-logo{
+  width: 5.5rem;
+}
+.app-link_svg{
+  width: 2.5rem;
+}
+.footer-mid{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  justify-content: start;
+  margin-bottom: 2rem ;
+  padding-bottom: 2rem;
+  border-bottom: .1rem solid var(--white-color);
+}
+.mid-address{
+  color: var(--white-color);
+  font-family:"Dana";
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.address-logo{
+  width: 1.5rem;
+}
+.footer-main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.access{
+  width: 25rem;
+  color: var(--white-color);
+  margin-bottom: 2rem;
+}
+.access-title{
+  font-family: "Danabold";
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.access-caption{
+  line-height: 1.7rem;
+}
+.access-text{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.access-caption{
+
+}
+.footer-down{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+.footer-down_text{
+  color: var(--white-color);
+}

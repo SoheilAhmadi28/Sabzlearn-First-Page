@@ -1,0 +1,100 @@
+@import "varible.css";
+@import "reset.css";
+@import "font.css";
+
+body {
+  font-family: "iranSans";
+  background-color: var(--bgcolor-color);
+}
+.login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  margin: 0 2rem;
+}
+.login-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.web-logo {
+  width: 6rem;
+}
+.web-name_logo {
+  font-size: 3rem;
+  font-family: "morraba";
+}
+.login-box {
+  background-color: var(--dark-color);
+  width: 21rem;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 1.3rem;
+}
+.login_title {
+  font-family: "Danabold";
+  color: var(--white-color);
+  font-size: 1.4rem;
+}
+.register-link {
+  color: var(--white-color);
+}
+.register-link_text {
+  color: var(--primery-color);
+  font-family: "Danabold";
+}
+.input-item {
+}
+.number-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.number-input__box {
+  background-color: var(--user-color);
+  border: none;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  color: var(--white-color);
+  border-radius: 1rem;
+  padding: 1.8rem 1rem;
+}
+.phone-svg {
+  position: absolute;
+  left: 0.8rem;
+  width: 1.5rem;
+  color: var(--gray-color);
+}
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  color: var(--white-color);
+  background-color: var(--primery-color);
+  font-family: "Danabold";
+}
+.submit-btn:hover {
+  background-color: rgb(17, 171, 63);
+  transition: all 100ms ease-in;
+}
+.description {
+  color: var(--white-color);
+  text-align: center;
+  line-height: 1.6rem;
+  width: 21rem;
+}
+.wep-address {
+  color: var(--primery-color);
+}

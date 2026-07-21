@@ -1,0 +1,113 @@
+@import "varible.css";
+@import "reset.css";
+@import "font.css";
+
+body {
+  font-family: "iranSans";
+  background-color: var(--bgcolor-color);
+}
+.opt{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  margin: 0 2rem;
+}
+.opt-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.web-logo {
+  width: 6rem;
+}
+.web-name_logo {
+  font-size: 3rem;
+  font-family: "morraba";
+}
+.otp-box {
+    background-color: var(--dark-color);
+    width: 21rem;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 1.3rem;
+}
+.opt-box__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.box_top-title{
+    color: var(--white-color);
+    font-family: "Danabold";
+    font-size: 1.4rem;
+}
+.back-svg{
+    width: 2rem;
+    color: var(--gray-color);
+}
+.user-number{
+    color: var(--white-color);
+    font-family: "Dana";
+}
+.otp-number{
+
+}
+.otp-inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    margin-bottom: 2rem;
+}
+.otp-number_input{
+    width: 3.5rem;
+    height: 3.8rem;
+    background-color: var(--user-color);
+    border: none;
+    outline: none;
+    border-radius: .7rem;
+    text-align: center;
+    color: var(--white-color);
+    font-family:"Danabold" ;
+}
+.otp-number_input input::-webkit-inner-spin-button,
+.otp-number_input input::-webkit-outer-spin-button{
+    display: none;
+}
+
+
+
+
+
+
+.otp-submit{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    color: var(--white-color);
+    background-color: var(--primery-color);
+    font-family: "Danabold";
+}
+.otp-submit:hover{
+    background-color: rgb(17, 171, 63);
+    transition: all 100ms ease-in;
+}
+.description {
+  color: var(--white-color);
+  text-align: center;
+  line-height: 1.6rem;
+  width: 21rem;
+}
+.wep-address {
+  color: var(--primery-color);
+}

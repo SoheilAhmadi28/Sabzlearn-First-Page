@@ -1,0 +1,28 @@
+:root{
+  --primery-color: #2bce56;
+  --dark-color:#272D3B;
+  --gray-color:#95989F;
+  --white-color:#efeded;
+  --bgicon-color: #2F3542;
+  --bgsidebar-color:rgb(17, 24, 39);
+  --bgcolor-color:#111827;
+  --user-color: rgb(51 60 76);
+}
+.dark{
+  --primery-color: #2bce56;
+  --dark-color:#fff;
+  --gray-color:#95989F;
+  --white-color:#111827;
+  --bgicon-color: #f2f4f6;
+  --bgsidebar-color:#f2f4f6;
+  --bgcolor-color:#f2f4f6;
+  --user-color: rgb(243 244 246);
+}
+body{
+  font-family: "iranSans";
+  background-color: var(--dark-color);
+  overflow-x: hidden;
+}
+a:hover{
+  color: var(--primery-color);
+}
